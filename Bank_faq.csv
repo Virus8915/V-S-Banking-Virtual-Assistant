@@ -1,0 +1,21 @@
+Question,Answer,Class
+i need customer support,Sure. I'd be happy to. What's up?,accounts
+I would like to transfer money,What's the destination country?,fundstransfer
+how are you?,"""Doing great, thanks.""",accounts
+what can you do for me?,"""I could transfer money for you, or I can block and renew cards. What can I do for you?""",accounts
+Hi,"""Hi there! What do you want me to do, today?""",accounts
+I would like to transfer money,To which bank account number do you want to transfer money?,fundstransfer
+Can I take a mortgage,"""What type of housing are you looking for? House, Villa, Apartment or Bungalow?""",loans
+Can you call me back please? ,Sure. I'd be happy to. ,accounts
+how much money is in my account?,Please tell me your Account No.,accounts
+How to raise fraud,"In case you want to report a fraud, please click on Report Fraud.",accounts
+Pre-approved offers,I need to authenticate you before proceeding,accounts
+Tax Certificate,I need to authenticate you before proceeding,accounts
+Show offers,Please select a category,accounts
+Reward Points,Please login to help you further with your REWARD POINTS request,cards
+Card Control,I need to authenticate you before proceeding,cards
+What is EBLR?,EBLR stands for External Benchmark Lending Rate,loans
+What will be my EMI?,"To know your EMI, visit our EMI Calculator",loans
+How much can I save by transferring my existing loan,Visit the savings calculator on our Website,loans
+Can a Home Loan be Pre-approved?,Yes. One can avail of a pre-approved loan from the bank.,loans
+FD in others name,Fixed deposit (FD) cannot be opened on third party name for NRI Customers,accounts
