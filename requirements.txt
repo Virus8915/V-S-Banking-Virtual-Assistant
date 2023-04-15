@@ -86,7 +86,7 @@ Pillow==9.2.0
 pkginfo==1.9.2
 platformdirs==2.6.2
 preshed==3.0.8
-prompt-toolkit==3.0.31
+prompt-toolkit
 psutil==5.9.2
 pure-eval==0.2.2
 pyarrow==11.0.0
