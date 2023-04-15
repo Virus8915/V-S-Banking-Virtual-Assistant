@@ -97,13 +97,13 @@ def get_response(usrText):
         elif max(cos_sims) == 0.0:
             return "Sorry, Can you please rephrase your question?"
 
-st.title("BankingBuddy Chatbot")
+st.title("Chatbot")
 
-st.write("Hi, I'm your BankingBuddy! How can I help you?")
+st.write("Hi,How can I help you?")
 
 user_input = st.text_input("You: ")
 
 if user_input:
     response = get_response(user_input)
 
-    st.write("BankingBuddy:", response)
+    st.write(response)
