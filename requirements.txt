@@ -71,7 +71,7 @@ more-itertools==9.0.0
 mpmath==1.3.0
 murmurhash==1.0.9
 nest-asyncio==1.5.5
-networkx==3.0
+
 nltk==3.7
 numpy==1.22.3
 oauthlib==3.2.2
