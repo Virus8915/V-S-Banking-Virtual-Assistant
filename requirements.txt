@@ -116,7 +116,7 @@ rfc3986==2.0.0
 rich==12.6.0
 rsa==4.9
 scikit-learn
-scipy==1.8.0
+scipy
 seaborn==0.12.1
 semver==3.0.0
 SimpleWebSocketServer==0.1.2
