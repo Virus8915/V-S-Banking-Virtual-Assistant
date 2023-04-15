@@ -21,7 +21,7 @@ def cleanup(sentence):
 le = LE()
 tfv = TfidfVectorizer(min_df=1, stop_words='english')
 
-df3 = pd.read_csv("merged_file.csv")
+df3 = pd.read_csv("BankFAQs.csv")
 questions = df3['Question'].values
 
 X = []
