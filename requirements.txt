@@ -120,7 +120,8 @@ seaborn==0.12.1
 semver==3.0.0
 SimpleWebSocketServer==0.1.2
 six==1.16.0
-sklearn
+
+
 smart-open==6.3.0
 smmap==5.0.0
 soupsieve==2.3.2
