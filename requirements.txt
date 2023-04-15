@@ -132,7 +132,7 @@ SQLAlchemy==2.0.7
 srsly==2.4.6
 stack-data==0.5.0
 streamlit==1.20.0
-sympy==1.11.1
+sympy
 
 
 
