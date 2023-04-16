@@ -103,7 +103,7 @@ import streamlit.components.v1 as com
 
 
 com.html(
-<!doctype html>
+
 
 <html lang="en">
     <head>
