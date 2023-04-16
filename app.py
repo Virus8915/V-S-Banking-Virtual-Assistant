@@ -102,7 +102,7 @@ import os
 import streamlit.components.v1 as com
 
 
-com.html("""
+com.html(
 <!doctype html>
 
 <html lang="en">
@@ -172,5 +172,5 @@ com.html("""
         <p align="center" style="padding:20px;">v2.0</p>
     </body>
 </html>
-""")
+)
 
