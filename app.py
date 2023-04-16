@@ -158,7 +158,7 @@ com.html("""
             <h4>You:</h4>       
             Type here... 
             <br><br>
-            <form action = "/predict" method = "POST">
+            <form action = "get_response(user_input)" method = "POST">
                 <input type = "submit" value = "SEND"/>
                 <input type="text" class="form-control" name="usrText" id="usrText" aria-describedby="emailHelp">
             </form>
@@ -180,9 +180,9 @@ com.html("""
 """)
 
 
-user_input = st.text_input("You: ")
+'''user_input = st.text_input("You: ")
 
 if user_input:
     response = get_response(user_input)
 
-    st.write(response)
+    st.write(response)'''
