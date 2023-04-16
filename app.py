@@ -100,12 +100,7 @@ import streamlit as st
 import os
 
 import streamlit.components.v1 as com
-user_input = st.text_input("You: ")
 
-if user_input:
-    response = get_response(user_input)
-
-    st.write(response)
 
 com.html("""
 <!doctype html>
