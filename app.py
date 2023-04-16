@@ -99,7 +99,7 @@ def get_response(usrText):
 
 st.title("V&S Banking Virtual Assistant")
 
-st.write("Hi,How can I help you?")
+st.write("What's your query?")
 
 user_input = st.text_input("You: ")
 
