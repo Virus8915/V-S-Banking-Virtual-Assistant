@@ -155,7 +155,7 @@ com.html("""
             Type here... 
             <br><br>
             <form action = "/predict" method = "POST">
-                <input type = "submit" value = "SEND"/>
+                <input type = "st.write(get_response(user_input))" value = "SEND"/>
                 <input type="text" class="form-control" name="usrText" id="get_response(user_input)" aria-describedby="emailHelp">
             </form>
         </div>
