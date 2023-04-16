@@ -174,10 +174,3 @@ com.html("""
 </html>
 """)
 
-
-'''user_input = st.text_input("You: ")
-
-if user_input:
-    response = get_response(user_input)
-
-    st.write(response)'''
