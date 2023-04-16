@@ -96,6 +96,88 @@ def get_response(usrText):
 
         elif max(cos_sims) == 0.0:
             return "Sorry, Can you please rephrase your question?"
+import streamlit as st
+import os
+
+import streamlit.components.v1 as com
+user_input = st.text_input("You: ")
+
+if user_input:
+    response = get_response(user_input)
+
+    st.write(response)
+
+com.html("""
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                font-family: Tahoma, Geneva, sans-serif;
+            }
+            
+            .box{
+                width: 70vw;
+                margin: auto;
+            }
+            
+            .chat{
+                width: 60vw;
+                padding: 2em;
+                border-radius: .5em;
+                font-size: 1.2em;
+            }
+            
+            .user{
+                text-align: left;
+                background: #836fe6; 
+                color: rgb(247, 247, 247); 
+            }
+            
+            .bot{
+                margin-left: 5vw;
+                text-align: right;
+                background: #f55182; 
+                color: white;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1 align="center">
+            V&S Banking Virtual Assistant
+        </h1>
+        <p align="center">
+            Hi, This is Savatar. Ask me anything !!!
+        </p>
+        
+        <div class="box">
+        <div class="chat user">
+            <h4>You:</h4>       
+            Type here... 
+            <br><br>
+            <form action = "/predict" method = "POST">
+                <input type = "submit" value = "SEND"/>
+                <input type="text" class="form-control" name="usrText" id="usrText" aria-describedby="emailHelp">
+            </form>
+        </div>
+        </div>
+        
+        <br>
+        
+        <div class="box">
+        <div class="chat bot">
+            <h4>Savatar</h4>
+            {{out_put_1}}
+        </div>    
+        </div>
+
+        <p align="center" style="padding:20px;">v2.0</p>
+    </body>
+</html>
+""")
 
 st.title("V&S Banking Virtual Assistant")
 
