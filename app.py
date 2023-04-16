@@ -153,9 +153,9 @@ com.html("""
             <h4>You:</h4>       
             Type here... 
             <br><br>
-            <form action = "get_response(user_input)" method = "POST">
+            <form action = "/predict" method = "POST">
                 <input type = "submit" value = "SEND"/>
-                <input type="text" class="form-control" name="usrText" id="usrText" aria-describedby="emailHelp">
+                <input type="text" class="form-control" name="usrText" id="get_response(user_input)" aria-describedby="emailHelp">
             </form>
         </div>
         </div>
