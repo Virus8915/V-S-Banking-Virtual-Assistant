@@ -59,13 +59,8 @@ sb.histplot(df['Class'])
 plt.figure(figsize=(20,14))
 df['Class'].value_counts().plot(kind = 'pie', autopct='%1.1f%%')
 
-26.2+22.6+21.2+18.2
 
-"""•	For Insurance 26.2% enquiries, For Cards 22.6% enquiries, For Loans 21.2% enquiries and For Accounts 18.2% enquiries are       there.
-•	Security and Fund Transfer are having combined enquiry of 4.1% only.
-•	More than 88% enquiries are under 4 classes out of 7 classes.
 
-"""
 
 df.head()
 
