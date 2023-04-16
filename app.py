@@ -97,7 +97,7 @@ def get_response(usrText):
         elif max(cos_sims) == 0.0:
             return "Sorry, Can you please rephrase your question?"
 
-st.title("Chatbot")
+st.title("V&S Banking Virtual Assistant")
 
 st.write("Hi,How can I help you?")
 
