@@ -241,7 +241,7 @@ def get_response(usrText):
         elif max(cos_sims)==[[0.]]:
            return "sorry! \U0001F605"
 
-pip install streamlit
+
 
 import streamlit as st
 import os
