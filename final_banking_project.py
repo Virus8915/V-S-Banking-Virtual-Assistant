@@ -65,7 +65,6 @@ df['Class'].value_counts().plot(kind = 'pie', autopct='%1.1f%%')
 df.head()
 
 import string
-string.punctuation
 
 def remove_punc(txt):
     txt_wo_punct = "".join([i for i in txt if i not in string.punctuation])
