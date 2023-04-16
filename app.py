@@ -179,9 +179,6 @@ com.html("""
 </html>
 """)
 
-st.title("V&S Banking Virtual Assistant")
-
-st.write("What's your query?")
 
 user_input = st.text_input("You: ")
 
