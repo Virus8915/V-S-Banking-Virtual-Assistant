@@ -96,10 +96,11 @@ def get_response(usrText):
 
         elif max(cos_sims) == 0.0:
             return "Sorry, Can you please rephrase your question?"
+import streamlit as st
 
 st.title("V&S Banking Virtual Assistant")
 
-st.write("Hi,How can I help you?")
+st.write("What's your query?")
 
 user_input = st.text_input("You: ")
 
@@ -107,3 +108,4 @@ if user_input:
     response = get_response(user_input)
 
     st.write(response)
+
